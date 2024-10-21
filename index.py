@@ -30,7 +30,7 @@ def analyze_sentiment():
         result_text = "Bu yazı **NEGATİF** olarak değerlendirildi!"
         result_label.config(fg="red")
     else:
-        result_text = "Bu yazı **NÖTR** olarak değerlendirildi!"
+        result_text = "Bu yazı **NÖTR** olarak değerlendirild!"
         result_label.config(fg="blue")
     
     result_label.config(text=result_text)
